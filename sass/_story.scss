@@ -16,12 +16,16 @@
 
   &__img--1 {
     width: 100%;
+    object-fit: cover;
+    // display: block;
     grid-row: 2/6;
     grid-column: 2/6;
     box-shadow: 0 2rem 5rem rgba($color: #000000, $alpha: 0.1);
   }
   &__img--2 {
     width: 115%;
+    object-fit: cover;
+    display: block;
     grid-row: 4/6;
     grid-column: 4/7;
     z-index: 15;
